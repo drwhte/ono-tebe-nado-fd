@@ -71,7 +71,7 @@ body {
 .cover {
   position: relative;
   z-index: 0;
-  height: 757px;
+  min-height: 757px;
   margin: 0 0 184px;
   padding: 165px 50px 48px;
   background-image: url("../images/cover.jpg");
@@ -94,7 +94,7 @@ body {
   z-index: 2;
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
-  grid-template-rows: repeat(3, 115px);
+  grid-template-rows: repeat(3, 1fr);
   place-items: center;
   row-gap: 20px;
   margin-bottom: 104px;
